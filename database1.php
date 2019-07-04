@@ -9,7 +9,7 @@ class Database {
         $connection = new mysqli("localhost", "root", "", "a123aa");
 
         if ($connection->connect_error) {
-            //die("Không thể kết nối đến CSDL");
+            die("Không thể kết nối đến CSDL");
         }
 
         $this->connection = $connection;
