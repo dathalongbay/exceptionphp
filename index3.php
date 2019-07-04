@@ -1,0 +1,5 @@
+<?php
+
+
+// Fatal error
+if () {
